@@ -14,6 +14,14 @@ body a{
 h1,h2,h3,h4,h5,h6{
 	margin:0;			   
 }	
+
+h1 {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 
+								0 -1px black, 
+								4px 8px 10px rgba(0, 0, 0, 0.24);
+	 color: #ddcca3
+}
+
 p{
 	margin:0;
 }
@@ -25,6 +33,7 @@ padding:0;
 .banner-bg1{
 	background:url(../images/bg.jpg) no-repeat;
 	background-size:cover;
+	background-position: 100% 100%;
 	min-height:835px;
 }
 .banner-bg2 {
@@ -190,17 +199,17 @@ a.morebtn:hover{
 .grid1,
 .grid2,
 .grid3 {
-	background-size: auto;
+	background-size: cover;
 }
 
 .grid1{
-	background:url(../images/c2.jpg) no-repeat 50% 48%;
+	background:url(../images/bik1.png) no-repeat 65% 0%;
 }
 .grid2{
-	background:url(../images/c1.jpg) no-repeat 25% 15%;
+	background:url(../images/g1.png) no-repeat 42% 0%;
 }
 .grid3{
-	background:url(../images/c3.jpg) no-repeat 50% 0%;
+	background:url(../images/s3.png) no-repeat 50% 0%;
 }
 .cate-grid h4{
 	color:#fcff19;
@@ -2242,4 +2251,22 @@ a.order{
 
 .dropdown2 {
 	text-shadow: none;
+}
+
+.ftr-menu ul li a:hover  {
+	text-decoration: underline;
+}
+
+.contacts {
+	padding: 190px 150px;
+	background: url(../images/cate.jpg);
+}
+
+.contacts p {
+	padding: 10px 0px;
+	font-size: 24px;
+}
+
+.contacts p:hover {
+	color: #555;
 }
